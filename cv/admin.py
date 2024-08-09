@@ -6,7 +6,11 @@ from django.contrib import admin
 from .models import Experience, Education, Skill
 
 
-# Register your models here.
+# Registering the Experience model with the Django admin site
 admin.site.register(Experience)
+
+# Registering the Education model with the Django admin site
 admin.site.register(Education)
+
+# Registering the Skill model with the Django admin site
 admin.site.register(Skill)
