@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{% static 'cv/Head shot.jpeg' %}" alt="Head Shot photo of Prince" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+            <h1>Prince N.</h1>
+            <p class="lead">Manager and future entreprenuer</p>
+                <p>
+                    Results-driven sales leader with over 10 years of 
+                    experience in the education sector, specializing in 
+                    business development and team leadership. Proven track 
+                    record of surpassing targets, streamlining processes, 
+                    and fostering growth in diverse markets.
+                </p>
+                <p>
+                    Passionate about delivering innovative online learning 
+                    solutions and empowering individuals to reach their full 
+                    potential. Consistently recognized for building strong 
+                    client relationships, streamlining onboarding processes, 
+                    and spearheading successful market expansion strategies.
+                </p>
+                <p>
+                    Drawing inspiration from leaders such as Martin Luther King
+                     and Nelson Mandela, I believe in empowering others to 
+                     achieve their full potential. I bring this philosophy to 
+                     my work, focusing on team development, process 
+                     optimization, and strategic innovation.
+                </p>
+            <div class="mt-3">
+                <a href="{% url 'cv_page' %}" class="btn btn-primary">View CV</a>
+                <a href="{% url 'contact' %}" class="btn btn-outline-secondary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
