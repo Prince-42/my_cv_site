@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.abspath('..'))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'my_cv_site.settings'
 
 django.setup()
+
 project = 'my_cv_site'
 copyright = '2024, Prince'
 author = 'Prince'
@@ -23,10 +24,13 @@ release = '00.00.01'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc',
-              'sphinx.ext.viewcode',
-              'sphinx.ext.napoleon'
-              ]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.imgmath',
+    ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

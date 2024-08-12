@@ -44,7 +44,15 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">My_cv_site documentation</a></li>
+<li><a class="reference internal" href="#">My_cv_site documentation</a><ul>
+<li><a class="reference internal" href="#table-of-contents">Table of Contents</a></li>
+<li><a class="reference internal" href="#features">Features</a></li>
+<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li><a class="reference internal" href="#usage">Usage</a></li>
+<li><a class="reference internal" href="#credits">Credits</a></li>
+</ul>
+</li>
 </ul>
 </div>
         </div>
@@ -73,11 +81,95 @@
              
   <section id="my-cv-site-documentation">
 <h1>My_cv_site documentation<a class="headerlink" href="#my-cv-site-documentation" title="Link to this heading"></a></h1>
-<p>Add your content using <code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> syntax. See the
-<a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html">reStructuredText</a>
-documentation for details.</p>
+<p>This repository contains the code for my Capstone Project, a personal CV website built using Django.</p>
+<section id="table-of-contents">
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><a class="reference internal" href="#features">Features</a></p></li>
+<li><p><a class="reference internal" href="#technologies-used">Technologies Used</a></p></li>
+<li><p><a class="reference internal" href="#getting-started">Getting Started</a>
+- <a class="reference internal" href="#prerequisites">Prerequisites</a>
+- <a class="reference internal" href="#installation-and-setup">Installation and Setup</a></p></li>
+<li><p><a class="reference internal" href="#usage">Usage</a></p></li>
+<li><p><a class="reference internal" href="#credits">Credits</a></p></li>
+</ol>
+</section>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Displays my professional experience, skills, and education.</p></li>
+<li><p>Responsive design for optimal viewing on different devices.</p></li>
+<li><p>Easy to update and maintain.</p></li>
+</ul>
+</section>
+<section id="technologies-used">
+<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Django</strong>: Web framework used to build the site.</p></li>
+<li><p><strong>Python 3.x</strong>: Programming language for the backend.</p></li>
+<li><p><strong>HTML/CSS</strong>: Markup and styling for the frontend.</p></li>
+<li><p><strong>Docker</strong> : For containerization and easier deployment.</p></li>
+</ul>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h2>
+<p id="prerequisites">### Prerequisites</p>
+<ul class="simple">
+<li><p>Python 3.x</p></li>
+<li><p>pip</p></li>
+<li><p>Docker (optional)</p></li>
+</ul>
+<p id="installation-and-setup">### Installation and Setup</p>
+<ol class="arabic">
+<li><p>Clone the repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>&lt;repository_url&gt;
+<span class="nb">cd</span><span class="w"> </span>&lt;project_directory&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Create a virtual environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+</pre></div>
+</div>
+</li>
+<li><p>Activate the virtual environment:</p>
+<p><strong>Windows:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+</pre></div>
+</div>
+<p><strong>macOS/Linux:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+</pre></div>
+</div>
+</li>
+<li><p>Install dependencies:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+</li>
+<li><p>Run migrations:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+</pre></div>
+</div>
+</li>
+<li><p>Start the development server:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>manage.py<span class="w"> </span>runserver
+</pre></div>
+</div>
+</li>
+</ol>
+<p>The website should now be accessible at <cite>http://127.0.0.1:8000/</cite>.</p>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h2>
+<p>Navigate to the development server URL in your web browser to view and interact with the CV site. You can also modify the content and styles by editing the appropriate Django templates and static files.</p>
+</section>
+<section id="credits">
+<h2>Credits<a class="headerlink" href="#credits" title="Link to this heading"></a></h2>
+<p>Prince Nkosi</p>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 
 
